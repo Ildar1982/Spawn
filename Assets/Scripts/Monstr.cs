@@ -6,7 +6,7 @@ public class Monstr : MonoBehaviour
 {
     private float _speed = 1;
 
-    void Update()
+   private void Update()
     {
         transform.Translate(Vector3.down * _speed * Time.deltaTime);
     }
